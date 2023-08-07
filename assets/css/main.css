@@ -157,14 +157,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #1173CA;
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: #1173CA;
-			color: #1173CA !important;
+			border-bottom-color: #ca6811;
+			color: #ca6811 !important;
 		}
 
 			a:hover strong {
@@ -2040,7 +2040,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
-		/*color: #1173ca;*/
+		color: #1173ca;
 	}
 
 		.icon:before {
@@ -2053,7 +2053,7 @@ input, select, textarea {
 		}
 
 		.icon:hover{
-  		color:#ca6811;
+  		color: #ca6811 !important;
 		}
 
 		.icon > .label {
@@ -2066,7 +2066,7 @@ input, select, textarea {
 		text-decoration: none;
 		position: relative;
 		border-bottom: none;
-		/*color: #1173ca;*/
+		color: #1173ca;
 
 	}
 
@@ -2080,7 +2080,7 @@ input, select, textarea {
 		}
 		
 		.icona:hover{
-  		color:ca6811;
+  		color: #ca6811 !important;
 		}
 
 		.icona > .label {
@@ -2301,11 +2301,11 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon {
-				color: inherit;
+				/*color: inherit;*/
 			}
 
 			ul.icons li .icona {
-				color: inherit;
+				/*color: inherit;*/
 			}
 
 				ul.icons li .icon:before {
